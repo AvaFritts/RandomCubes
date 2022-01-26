@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RandomCubes : MonoBehaviour
+public class CubeSpawner : MonoBehaviour
 {
     public GameObject cubePrefab; //new Gameobject
     public float scalingFactor = 0.95f; //amount each cube will shrink each frame
